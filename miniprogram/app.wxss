@@ -154,3 +154,4 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+@import 'miniprogram_npm/@vant/weapp/common/index.wxss';

@@ -18,9 +18,30 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "简易聊天室",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black" ,
+    "list": [{
+      "selectedIconPath": "images/home-click.png",
+      "iconPath": "images/home.png",
+      "pagePath": "pages/index/index",
+      "text": "基本信息"
+    }, {
+      "selectedIconPath": "images/friend-click.png",
+      "iconPath": "images/friend.png",
+      "pagePath": "pages/im/im",
+      "text": "我的朋友"
+    },{
+      "selectedIconPath": "images/find-click.png",
+      "iconPath": "images/find.png",
+      "pagePath": "pages/im/im",
+      "text": "查找朋友"
+    }
+    ]
+  }
 }
